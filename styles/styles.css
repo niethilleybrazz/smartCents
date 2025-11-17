@@ -1,0 +1,21 @@
+
+.SmartCents---Dark-1-hex { color: #0D0D0D; }
+.SmartCents---Dark-2-hex { color: #1A1A1A; }
+.SmartCents---Dark-3-hex { color: #F2FFFA; }
+.SmartCents---Dark-4-hex { color: #C8E5D9; }
+.SmartCents---Dark-5-hex { color: #3AD29F; }
+.SmartCents---Dark-6-hex { color: #2A2A2A; }
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --primary-background : #F2FFFA;
+    --secundary-background : #FFFFFF;
+    --primary-font-color : #1A1A1A;
+    --secundary-font-color :#3F4A45;
+    --highlights : #3AD29F;
+    --border : #DCEDE6;
+
+    --title-font : 'Lexend', Arial;
+    --text-font : 'Inter', Arial;
+}
