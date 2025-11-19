@@ -1,0 +1,188 @@
+@import url(styles.css);
+@import url(reset.css);
+
+/* ========================================
+   TABLETS (481px até 992px)
+   ======================================== */
+@media (max-width: 992px) {
+    /* Header */
+    #header {
+        justify-content: space-between;
+        padding: 20px 40px;
+    }
+    #link-list {
+        gap: 20px;
+    }
+
+    /* Apresentação */
+    #apresentation-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 4em;
+    }
+    #apresentation-content {
+        margin-top: 2em;
+    }
+    #apresentation-text {
+        width: 100%;
+        max-width: 600px;
+        margin-right: 0;
+        margin-bottom: 3em;
+    }
+    #apresentation-text h1 {
+        font-size: 2.5rem;
+    }
+    #apresentation-container-image {
+        display: none;
+    }
+
+    /* Recursos */
+    #resources-control {
+        flex-direction: column;
+        align-items: center;
+    }
+    .resource {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    /* Como funciona */
+    #how-works-cards-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .how-works-card {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    /* Depoimentos */
+    #avaliation{
+        margin-top: 3em;
+    }
+    #avaliation-control {
+        flex-direction: column;
+        align-items: center;
+    }
+    .avaliation-card {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    /* Start Now */
+    #start-now {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    #start-now img {
+        width: 80%;
+        max-width: 600px;
+        margin-bottom: 3em;
+    }
+    #start-now-button-control {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #start-now-button-control button {
+        margin: 0.5em 0;
+        width: 80%;
+        max-width: 400px;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 2em;
+    }
+}
+
+/* ========================================
+   CELULARES (até 480px)
+   ======================================== */
+@media (max-width: 480px) {
+    section {
+        margin: 40px 30px;
+    }
+
+    /* Header - menu hamburger (opcional futuramente) */
+    #header {
+        padding: 15px 20px;
+        position: relative;
+    }
+    #link-list {
+        display: none; /* esconde os links - pode transformar em hamburger depois */
+    }
+    #header-button-container button {
+        padding: 8px 14px;
+        font-size: 0.9rem;
+    }
+
+    /* Apresentação */
+    #apresentation-text h1 {
+        font-size: 2.2rem;
+        line-height: 1.2;
+    }
+    #apresentation-text p {
+        font-size: .9rem;
+    }
+    #high-lights-container button {
+        width: 100%;
+        padding: 1em;
+    }
+    #high-lights-control {
+        gap: 1em;
+        margin-top: 3em;
+        align-items: center;
+    }
+    .high-lights {
+        border-left: 1px solid #1a1a1a24;
+        padding-left: 1em;
+        text-align: center;
+    }
+    #apresentation-container-image{
+        display: none;
+    }
+
+    /* Recursos */
+    #resources-container h2,
+    #how-it-works h2,
+    #avaliation h2,
+    #start-now-control h2 {
+        font-size: 1.8rem;
+    }
+    #avaliation-control{
+        margin-top: 3em;
+    }
+    .avaliation-card{
+        width: 350px;
+    }
+    
+    .resource{
+        width: 350px;
+    }
+
+    #start-now img{
+        display: none;
+    }
+
+    /* Como funciona */
+    .how-works-card h4 {
+        font-size: 2.5em;
+    }
+
+    /* Botões finais */
+    .free-accont {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    #start-now-button-control button:last-child {
+        width: 100%;
+    }
+
+    /* Footer */
+    .footer-text h4 {
+        font-size: 1.5rem;
+    }
+}
