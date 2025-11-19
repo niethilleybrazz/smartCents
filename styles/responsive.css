@@ -1,11 +1,8 @@
 @import url(styles.css);
 @import url(reset.css);
 
-/* ========================================
-   TABLETS (481px até 992px)
-   ======================================== */
+/* Tablets */
 @media (max-width: 992px) {
-    /* Header */
     #header {
         justify-content: space-between;
         padding: 20px 40px;
@@ -14,7 +11,6 @@
         gap: 20px;
     }
 
-    /* Apresentação */
     #apresentation-container {
         flex-direction: column;
         align-items: center;
@@ -37,7 +33,6 @@
         display: none;
     }
 
-    /* Recursos */
     #resources-control {
         flex-direction: column;
         align-items: center;
@@ -47,7 +42,6 @@
         max-width: 500px;
     }
 
-    /* Como funciona */
     #how-works-cards-container {
         flex-direction: column;
         align-items: flex-start;
@@ -57,7 +51,7 @@
         max-width: 600px;
     }
 
-    /* Depoimentos */
+
     #avaliation{
         margin-top: 3em;
     }
@@ -70,7 +64,7 @@
         max-width: 500px;
     }
 
-    /* Start Now */
+    
     #start-now {
         flex-direction: column-reverse;
         text-align: center;
@@ -98,21 +92,18 @@
     }
 }
 
-/* ========================================
-   CELULARES (até 480px)
-   ======================================== */
+/* Celulares */
 @media (max-width: 480px) {
     section {
         margin: 40px 30px;
     }
 
-    /* Header - menu hamburger (opcional futuramente) */
     #header {
         padding: 15px 20px;
         position: relative;
     }
     #link-list {
-        display: none; /* esconde os links - pode transformar em hamburger depois */
+        display: none; 
     }
     #header-button-container button {
         padding: 8px 14px;
@@ -145,7 +136,7 @@
         display: none;
     }
 
-    /* Recursos */
+    
     #resources-container h2,
     #how-it-works h2,
     #avaliation h2,
@@ -167,12 +158,10 @@
         display: none;
     }
 
-    /* Como funciona */
     .how-works-card h4 {
         font-size: 2.5em;
     }
 
-    /* Botões finais */
     .free-accont {
         width: 100%;
         margin-bottom: 1em;
@@ -181,7 +170,6 @@
         width: 100%;
     }
 
-    /* Footer */
     .footer-text h4 {
         font-size: 1.5rem;
     }
